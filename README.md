@@ -1,6 +1,7 @@
 # Cyber Security
 
 ## My Information
-- Prawee Wongsa
-- 4820750XXX
-- Learning about cyber security
+
+* Atipron Wardim
+* 056860405XXX
+* To gain deep technical knowledge in Cyber Security and Ethical Hacking.
