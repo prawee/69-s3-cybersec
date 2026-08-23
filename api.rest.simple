@@ -10,7 +10,24 @@ Content-Type: application/json
     "rememberMe": true
 }
 
-## Signup
+### Login (User)
+POST http://localhost:9093/api/auth/local
+Content-Type: application/json
+
+{
+    "identifier": "",
+    "password": ""
+}
+
+### Signup
+POST http://localhost:9093/api/auth/local/register
+Content-Type: application/json
+
+{
+    "username": "",
+    "email": "",
+    "password": ""
+}
 
 ## Forgot Password
 
