@@ -1,6 +1,7 @@
 # REST
 
-## Login
+## Admin Section
+### Login
 POST http://localhost:9093/admin/login
 Content-Type: application/json
 
@@ -10,7 +11,13 @@ Content-Type: application/json
     "rememberMe": true
 }
 
-### Login (User)
+### Signup
+### Forgot Password
+### Profile
+
+
+## User Section
+### Login
 POST http://localhost:9093/api/auth/local
 Content-Type: application/json
 
@@ -19,6 +26,7 @@ Content-Type: application/json
     "password": ""
 }
 
+### Signup
 ### Signup
 POST http://localhost:9093/api/auth/local/register
 Content-Type: application/json
@@ -29,6 +37,5 @@ Content-Type: application/json
     "password": ""
 }
 
-## Forgot Password
-
-## Profile
+### Forgot Password
+### Profile
