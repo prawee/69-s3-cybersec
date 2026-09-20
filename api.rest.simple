@@ -1,13 +1,16 @@
 # REST
 
+@adminEmail = {{$dotenv ADMIN_EMAIL}}
+@adminPassword = {{$dotenv ADMIN_PASSWORD}}
+
 ## 1. Admin Section
 ### 1.1 Login
 POST http://localhost:9093/admin/login
 Content-Type: application/json
 
 {
-    "email": "",
-    "password": "",
+    "email": "{{adminEmail}}",
+    "password": "{{adminPassword}}",
     "rememberMe": true
 }
 
