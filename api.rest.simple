@@ -38,9 +38,8 @@ POST http://localhost:9093/admin/reset-password
 Content-Type: application/json
 
 {
-    "code": "",
-    "password": "",
-    "passwordConfirmation": ""
+    "resetPasswordToken": "",
+    "password": ""
 }
 
 ### 1.4 Profile
